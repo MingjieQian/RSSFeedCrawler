@@ -4,6 +4,12 @@ Description:
 CSS selector expression is used to specify the DOM locations for the text and image path.
 SHA256 is used instead of MD5 to digest URLs.
 
+SourceForge:
+https://sourceforge.net/projects/rssfeedcrawler
+
+GitHup:
+https://github.com/MingjieQian/RSSFeedCrawler
+
 Usage:
 java -jar path_of_RSSFeedCrawler.jar -sys_conf path_of_sys_conf.txt
 
