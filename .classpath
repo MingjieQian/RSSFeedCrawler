@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.19-bin.jar" sourcepath="C:/Aaron/My Codes/References/MySQL &amp; JDBC/mysql-connector-java-5.1.19.tar.gz"/>
+	<classpathentry kind="lib" path="lib/jsoup-1.7.1.jar" sourcepath="C:/Aaron/Research/Toolbox/Backup/Packages/jsoup-1.7.1-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

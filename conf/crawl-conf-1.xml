@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feeds>
+  <!-- English feeds begin here -->
+  <language name="english" tag="eng">
+	<channel name="nytimes_science" active="1">
+      <url><![CDATA[http://rss.nytimes.com/services/xml/rss/nyt/Science.xml]]></url>
+      <xpath><![CDATA[div.articleBody p, div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div[class*=image] img[src], div.entry-content div:not(.w75 left) img[src]]]></img_xpath>
+    </channel>
+  </language>
+  <!-- English feeds end here -->
+</feeds>

@@ -1,0 +1,1 @@
+0 18 * * * java -jar /home/czhai/mqian2/Toolbox/Java/RSSFeedCrawler/RSSFeedCrawler.jar -sys_conf /home/czhai/mqian2/Toolbox/Java/RSSFeedCrawler/sys_conf.txt >> log.file 2>&1

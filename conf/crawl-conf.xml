@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feeds>
+  <!-- crawler will NOT crawl pages from these domains -->
+  <!-- these pages don't have textual content (pictures, multimedia, etc.) -->
+  <avoid>
+    <domain name="duma.lenta.ru"/>
+    <domain name="auto.lenta.ru"/>
+    <domain name="realty.lenta.ru"/>
+    <domain name="www.medportal.ru"/>
+    <domain name="www.rian.ru/video"/>
+    <domain name="www.rian.ru/photolents"/>
+    <domain name="en.rian.ru/video"/>
+    <domain name="en.rian.ru/photolents"/>
+    <domain name="sp.rian.ru/photolents"/>
+    <domain name="fr.rian.ru/photolents"/>
+    <domain name="ar.rian.ru/photolents"/>
+    <domain name="www.bbc.co.uk/blogs"/>
+    <domain name="newsforums.bbc.co.uk"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/vietnamese/indepth/cluster"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/vietnamese/worldnews/cluster"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/vietnamese/inpictures"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/indonesian/inpictures"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/hindi/specials"/>
+    <domain name="news.bbc.co.uk/go/rss/-/hi/spanish/specials"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/french/specials"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/romanian/specials"/>
+    <domain name="www.bbc.co.uk/apps/ifl/french"/>
+    <domain name="www.bbc.co.uk/french/meta"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/urdu/specials"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/turkish/specials"/>
+    <domain name="news.bbc.co.uk/hi/arabic/elt"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/turkish/indepth/cluster"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/turkish/learningenglish/cluster"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/turkish/indepth/cluster"/>
+    <domain name="www.bbc.co.uk/portuguese/noticias/cluster"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/persian/sport"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/persian/interactivity"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/persian/news/cluster"/>
+    <domain name="www.bbc.co.uk/go/wsy/pub/rss/1.0/-/persian/sport"/>
+    <domain name="news.bbc.co.uk/hi/arabic/elt"/>
+  </avoid>
+  <!-- crawler will filter out those tags from pages from those domains -->
+  <filter>
+    <tags>
+      <tag name="noindex"/>
+      <tag name="none"/>
+      <tag name="verbatim"/>
+    </tags>
+    <domains>
+      <domain name="www.newsru.com"/>
+      <domain name="www.rian.ru"/>
+      <domain name="www.washingtonpost.com"/>
+    </domains>
+  </filter>
+  <!-- English feeds begin here -->
+  <language name="english" tag="eng">
+    <channel name="cnn_top" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/cnn_topstories.rss]]></url>
+      <xpath><![CDATA[div.cnn_contentarea > div.cnn_storyarea > div.cnn_strycntntlft > p]]></xpath>
+      <img_xpath><![CDATA[div.cnn_strycntntlft img[src]]]></img_xpath>
+    </channel>
+	<channel name="cnn_politics" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/cnn_allpolitics.rss]]></url>
+      <xpath><![CDATA[div.cnn_contentarea > div.cnn_storyarea > div.cnn_strycntntlft > p]]></xpath>
+      <img_xpath><![CDATA[div.cnn_strycntntlft img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_news" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1001]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_politics" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1014]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_world" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1004]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="usnews" active="1">
+      <url><![CDATA[http://www.usnews.com/rss/usnews.rss]]></url>
+      <xpath><![CDATA[html > body > div#content-wrapper > div#main > div#unsticky-container > div#content > p]]></xpath>
+	  <img_xpath><![CDATA[html > body > div#content-wrapper > div#main > div#unsticky-container > div#content > div[class^=content] > img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_world" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/world]]></url>
+      <xpath><![CDATA[div[class=article-text KonaBody] p]]></xpath>
+    </channel>
+	<channel name="foxnews_politics" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/politics]]></url>
+      <xpath><![CDATA[div[class=article-text KonaBody] p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="voa_news" active="1">
+      <url><![CDATA[http://www.voanews.com/templates/Articles.rss?sectionPath=/english/news]]></url>
+      <xpath><![CDATA[div.articleContent div.zoomMe > *]]></xpath>
+	  <img_xpath><![CDATA[div[class^=contentImage] img[src]]]></img_xpath>
+    </channel>
+  </language>
+  <!-- English feeds end here -->
+</feeds>

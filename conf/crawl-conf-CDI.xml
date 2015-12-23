@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feeds>
+  <!-- English feeds begin here -->
+  <language name="english" tag="eng">
+	<channel name="cnnMoney_business" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/money_latest.rss]]></url>
+      <xpath><![CDATA[div#storytext p, div#storytext h2]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="cnn_politics" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/cnn_allpolitics.rss]]></url>
+      <xpath><![CDATA[div.cnn_contentarea > div.cnn_storyarea > div.cnn_strycntntlft > p]]></xpath>
+      <img_xpath><![CDATA[div.cnn_strycntntlft img[src]]]></img_xpath>
+    </channel>
+	<channel name="cnn_world" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/cnn_world.rss]]></url>
+      <xpath><![CDATA[div.cnn_contentarea > div.cnn_storyarea > div.cnn_strycntntlft > p]]></xpath>
+      <img_xpath><![CDATA[div.cnn_strycntntlft img[src]]]></img_xpath>
+    </channel>
+	<channel name="cnn_crime" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/cnn_crime.rss]]></url>
+      <xpath><![CDATA[div.cnn_contentarea > div.cnn_storyarea > div.cnn_strycntntlft > p]]></xpath>
+      <img_xpath><![CDATA[div.cnn_strycntntlft img[src]]]></img_xpath>
+    </channel>
+	<channel name="cnn_technology" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/cnn_tech.rss]]></url>
+      <xpath><![CDATA[div.cnn_contentarea > div.cnn_storyarea > div.cnn_strycntntlft > p]]></xpath>
+      <img_xpath><![CDATA[div.cnn_strycntntlft img[src]]]></img_xpath>
+    </channel>
+	<channel name="cnn_health" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/cnn_health.rss]]></url>
+      <xpath><![CDATA[div.cnn_contentarea > div.cnn_storyarea > div.cnn_strycntntlft > p]]></xpath>
+      <img_xpath><![CDATA[div.cnn_strycntntlft img[src]]]></img_xpath>
+    </channel>
+	<channel name="cnn_entertainment" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/cnn_showbiz.rss]]></url>
+      <xpath><![CDATA[div.cnn_contentarea > div.cnn_storyarea > div.cnn_strycntntlft > p]]></xpath>
+      <img_xpath><![CDATA[div.cnn_strycntntlft img[src]]]></img_xpath>
+    </channel>
+	<channel name="cnn_travel" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/cnn_travel.rss]]></url>
+      <xpath><![CDATA[div.cnn_contentarea > div.cnn_storyarea > div.cnn_strycntntlft > p]]></xpath>
+      <img_xpath><![CDATA[div.cnn_strycntntlft img[src]]]></img_xpath>
+    </channel>
+	<channel name="cnn_living" active="1">
+      <url><![CDATA[http://rss.cnn.com/rss/cnn_living.rss]]></url>
+      <xpath><![CDATA[div.cnn_contentarea > div.cnn_storyarea > div.cnn_strycntntlft > p]]></xpath>
+      <img_xpath><![CDATA[div.cnn_strycntntlft img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_Science_technology" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/scitech]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_world" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/world]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_politics" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/politics]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_entertainment" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/entertainment]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_health" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/health]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_lifestyle" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/section/lifestyle]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_Science_technology" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/scitech]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_sports" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/sports]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_travel" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/internal/travel/mixed]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="foxnews_opinion" active="1">
+      <url><![CDATA[http://feeds.foxnews.com/foxnews/opinion]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_politics" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1014]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_arts_culture" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1008]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_business" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1006]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_health_science" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1007]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_opinion" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1057]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_world" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1004]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_education" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1013]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_economy" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1017]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_environment" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1025]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_health" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1027]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_games_and_humor" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1052]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_technology" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1019]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_sports" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1055]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="npr_religion" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1016]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="usnews_money" active="1">
+      <url><![CDATA[http://www.usnews.com/rss/money]]></url>
+      <xpath><![CDATA[html > body > div#content-wrapper > div#main > div#unsticky-container > div#content > p]]></xpath>
+	  <img_xpath><![CDATA[html > body > div#content-wrapper > div#main > div#unsticky-container > div#content > div[class^=content] > img[src]]]></img_xpath>
+    </channel>
+	<channel name="usnews_education" active="1">
+      <url><![CDATA[http://www.usnews.com/rss/education]]></url>
+      <xpath><![CDATA[html > body > div#content-wrapper > div#main > div#unsticky-container > div#content > p]]></xpath>
+	  <img_xpath><![CDATA[html > body > div#content-wrapper > div#main > div#unsticky-container > div#content > div[class^=content] > img[src]]]></img_xpath>
+    </channel>
+	<channel name="usnews_health" active="1">
+      <url><![CDATA[http://www.usnews.com/rss/health-news]]></url>
+      <xpath><![CDATA[html > body > div#content-wrapper > div#main > div#unsticky-container > div#content > p]]></xpath>
+	  <img_xpath><![CDATA[html > body > div#content-wrapper > div#main > div#unsticky-container > div#content > div[class^=content] > img[src]]]></img_xpath>
+    </channel>
+	<channel name="voanews_science_technology" active="1">
+      <url><![CDATA[http://www.voanews.com/rss/?count=20&zoneid=621]]></url>
+      <xpath><![CDATA[div.articleContent div.zoomMe > *, div.articleContent div.zoomMe]]></xpath>
+	  <img_xpath><![CDATA[div[class^=contentImage] img[src]]]></img_xpath>
+    </channel>
+	<channel name="voanews_health" active="1">
+      <url><![CDATA[http://www.voanews.com/rss/?count=20&zoneid=607]]></url>
+      <xpath><![CDATA[div.articleContent div.zoomMe > *, div.articleContent div.zoomMe]]></xpath>
+	  <img_xpath><![CDATA[div[class^=contentImage] img[src]]]></img_xpath>
+    </channel>
+	<channel name="nytimes_war" active="1">
+      <url><![CDATA[http://atwar.blogs.nytimes.com/feed/]]></url>
+      <xpath><![CDATA[div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div.entry-content div:not(.w75 left) img[src]]]></img_xpath>
+    </channel>
+	<channel name="nytimes_sports" active="1">
+      <url><![CDATA[http://rss.nytimes.com/services/xml/rss/nyt/Sports.xml]]></url>
+      <xpath><![CDATA[div.articleBody p, div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div[class*=image] img[src], div.entry-content div:not(.w75 left) img[src]]]></img_xpath>
+    </channel>
+	<channel name="nytimes_business" active="1">
+      <url><![CDATA[http://rss.nytimes.com/services/xml/rss/nyt/Business.xml]]></url>
+      <xpath><![CDATA[div.articleBody p, div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div[class*=image] img[src], div.entry-content div:not(.w75 left) img[src]]]></img_xpath>
+    </channel>
+	<channel name="nytimes_technology" active="1">
+      <url><![CDATA[http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml]]></url>
+      <xpath><![CDATA[div.articleBody p, div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div[class*=image] img[src], div.entry-content div:not(.w75 left) img[src]]]></img_xpath>
+    </channel>
+	<channel name="nytimes_science" active="1">
+      <url><![CDATA[http://rss.nytimes.com/services/xml/rss/nyt/Science.xml]]></url>
+      <xpath><![CDATA[div.articleBody p, div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div[class*=image] img[src], div.entry-content div:not(.w75 left) img[src]]]></img_xpath>
+    </channel>
+	<channel name="nytimes_health" active="1">
+      <url><![CDATA[http://rss.nytimes.com/services/xml/rss/nyt/Health.xml]]></url>
+      <xpath><![CDATA[div.articleBody p, div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div[class*=image] img[src], div.entry-content div:not(.w75 left) img[src]]]></img_xpath>
+    </channel>
+	<channel name="nytimes_arts" active="1">
+      <url><![CDATA[http://rss.nytimes.com/services/xml/rss/nyt/Arts.xml]]></url>
+      <xpath><![CDATA[div.articleBody p, div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div[class*=image] img[src], div.entry-content div:not(.w75 left) img[src]]]></img_xpath>
+    </channel>
+	<channel name="nytimes_accidents_safety" active="1">
+      <url><![CDATA[http://topics.nytimes.com/top/reference/timestopics/subjects/a/accidents_and_safety/index.html?rss=1]]></url>
+      <xpath><![CDATA[div.articleBody p, div.entry-content p]]></xpath>
+	  <img_xpath><![CDATA[div[class*=image] img[src], div.entry-content div:not(.w75 left) img[src]]]></img_xpath>
+    </channel>
+	<channel name="economist_disasters_accidents" active="1">
+      <url><![CDATA[http://www.economist.com/topics/accidents-and-disasters/index.xml]]></url>
+      <xpath><![CDATA[div.main-content p]]></xpath>
+	  <img_xpath><![CDATA[div.content-image-full img[src]]]></img_xpath>
+    </channel>
+	<channel name="economist_celebrity" active="1">
+      <url><![CDATA[http://www.economist.com/topics/celebrity-news/index.xml]]></url>
+      <xpath><![CDATA[div.main-content p]]></xpath>
+	  <img_xpath><![CDATA[div.content-image-full img[src]]]></img_xpath>
+    </channel>
+	<channel name="economist_labor_disputes" active="1">
+      <url><![CDATA[http://www.economist.com/topics/labour-disputes-and-strikes/index.xml]]></url>
+      <xpath><![CDATA[div.main-content p]]></xpath>
+	  <img_xpath><![CDATA[div.content-image-full img[src]]]></img_xpath>
+    </channel>
+	<channel name="economist_labor_law" active="1">
+      <url><![CDATA[http://www.economist.com/topics/labour-law/index.xml]]></url>
+      <xpath><![CDATA[div.main-content p]]></xpath>
+	  <img_xpath><![CDATA[div.content-image-full img[src]]]></img_xpath>
+    </channel>
+	<channel name="economist_labor_market" active="1">
+      <url><![CDATA[http://www.economist.com/topics/labour-market/index.xml]]></url>
+      <xpath><![CDATA[div.main-content p]]></xpath>
+	  <img_xpath><![CDATA[div.content-image-full img[src]]]></img_xpath>
+    </channel>
+	<channel name="economist_war_crimes" active="1">
+      <url><![CDATA[http://www.economist.com/topics/war-crimes/index.xml]]></url>
+      <xpath><![CDATA[div.main-content p]]></xpath>
+	  <img_xpath><![CDATA[div.content-image-full img[src]]]></img_xpath>
+    </channel>
+	<channel name="economist_war_casualties" active="1">
+      <url><![CDATA[http://www.economist.com/topics/war-casualties/index.xml]]></url>
+      <xpath><![CDATA[div.main-content p]]></xpath>
+	  <img_xpath><![CDATA[div.content-image-full img[src]]]></img_xpath>
+    </channel>
+	<channel name="economist_war_conflict" active="1">
+      <url><![CDATA[http://www.economist.com/topics/war-and-conflict/index.xml]]></url>
+      <xpath><![CDATA[div.main-content p]]></xpath>
+	  <img_xpath><![CDATA[div.content-image-full img[src]]]></img_xpath>
+    </channel>
+	<channel name="economist_weather" active="1">
+      <url><![CDATA[http://www.economist.com/topics/weather/index.xml]]></url>
+      <xpath><![CDATA[div.main-content p]]></xpath>
+	  <img_xpath><![CDATA[div.content-image-full img[src]]]></img_xpath>
+    </channel>
+	<channel name="latimes_disasters_accidents" active="1">
+      <url><![CDATA[http://rss.latimes.com/rss/topic/disasters-accidents/03000000.topic]]></url>
+      <xpath><![CDATA[div#story-body-text p]]></xpath>
+	  <img_xpath><![CDATA[div#story-body img[src]]]></img_xpath>
+    </channel>
+  </language>
+  <!-- English feeds end here -->
+</feeds>

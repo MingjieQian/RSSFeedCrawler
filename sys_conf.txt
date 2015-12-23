@@ -1,0 +1,4 @@
+#data_dir = C:\\Aaron\\Research\\Toolbox\\Libraries\\Java\\RSSFeedCrawler/data
+crawl_conf = C:\\Aaron\\Research\\Toolbox\\Libraries\\Java\\RSSFeedCrawler/crawl-sites.xml
+db_user = root
+db_pass = 1234

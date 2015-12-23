@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feeds>
+  <!-- English feeds begin here -->
+  <language name="english" tag="eng">
+	<channel name="npr_news" active="1">
+      <url><![CDATA[http://www.npr.org/rss/rss.php?id=1001]]></url>
+      <xpath><![CDATA[div#storytext > p]]></xpath>
+      <img_xpath><![CDATA[div#storytext img[src]]]></img_xpath>
+    </channel>
+	<channel name="voa_news" active="1">
+      <url><![CDATA[http://www.voanews.com/templates/Articles.rss?sectionPath=/english/news]]></url>
+      <xpath><![CDATA[div.articleContent div.zoomMe > *]]></xpath>
+	  <img_xpath><![CDATA[div[class^=contentImage] img[src]]]></img_xpath>
+    </channel>
+  </language>
+  <!-- English feeds end here -->
+</feeds>
